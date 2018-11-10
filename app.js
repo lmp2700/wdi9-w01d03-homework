@@ -7,35 +7,32 @@
 // }
 
 
-// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
-// For every even number in your loop, log "...human...why you taking pictures of me?...", 
-// "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
-// Hint: You will need to use Math.random()
 
-for(i = 0; i <= 20; i++) {
-  const catPhrase = ["...human...why you taking pictures of me?...", 
-                   "...the catnip made me do it...", "...why does the red dot always get away..."];
-    if(i % 2 === 0) {
-    let randomPhrase = catPhrase[Math.floor(Math.random() * catPhrase.length)];
-    console.log(i + randomPhrase)
-} else {
-      console.log(i + " Love me, pet me! HSSSSSS!")
-  }
-};
+// for(i = 0; i <= 20; i++) {
+//   const catPhrase = ["...human...why you taking pictures of me?...", 
+//                    "...the catnip made me do it...", "...why does the red dot always get away..."];
+//     if(i % 2 === 0) {
+//     let randomPhrase = catPhrase[Math.floor(Math.random() * catPhrase.length)];
+//     console.log(i + randomPhrase)
+// } else {
+//       console.log(i + " Love me, pet me! HSSSSSS!")
+//   }
+// };
 
 
-// need to log phrase instead of number. currently logging number and then phrase underneath
-// for(i = 1; i <= 100; i++) {
-//     console.log(i); {
-//         if(i % 3 === 0) {
-//             console.log("Fizz");
-//         }   if(i % 5 === 0) {
-//             console.log("Buzz");
-//         } if(i % 3 === 0 && i % 5 === 0) {
-//             console.log("Fizzbuzz");
-//         }
-//     }  
-// }; 
+
+for(let i = 1; i <= 100; i++) {
+        if(i % 3 === 0) {
+            console.log("Fizz");
+        } else if(i % 5 === 0) {
+            console.log("Buzz");
+        } else if(i % 3 === 0 && i % 5 === 0) {
+            console.log("Fizzbuzz");
+        }
+        else {
+          console.log(i)
+        } 
+  }; 
 
 
 // const shahzad = ["Shahzad", 1000, "Austin"];
