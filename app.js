@@ -21,18 +21,18 @@
 
 
 
-for(let i = 1; i <= 100; i++) {
-        if(i % 3 === 0) {
-            console.log("Fizz");
-        } else if(i % 5 === 0) {
-            console.log("Buzz");
-        } else if(i % 3 === 0 && i % 5 === 0) {
-            console.log("Fizzbuzz");
-        }
-        else {
-          console.log(i)
-        } 
-  }; 
+// for(let i = 1; i <= 100; i++) {
+//         if(i % 3 === 0) {
+//             console.log("Fizz");
+//         } else if(i % 5 === 0) {
+//             console.log("Buzz");
+//         } else if(i % 3 === 0 && i % 5 === 0) {
+//             console.log("Fizzbuzz");
+//         }
+//         else {
+//           console.log(i)
+//         } 
+//   }; 
 
 
 // const shahzad = ["Shahzad", 1000, "Austin"];
@@ -50,7 +50,8 @@ for(let i = 1; i <= 100; i++) {
 // Daniel just had his birthday; change Daniel's array to reflect him being a year older. 
 // Don't just hard code 187--pretend that you don't know that his age is 186, and write your 
 // code to just make him a year older than whatever age he was.
-// ---> const daniel = ["Daniel", 186, "Dallas"];
+   const daniel = ["Daniel", 186, "Dallas"];
+   console.log(daniel[1] + 1)
 
 
 // Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
@@ -75,12 +76,12 @@ for(let i = 1; i <= 100; i++) {
 // //console.log(jim);
 // jim.push('Green Bay', 'Greeley', 'Fort Collins');
 // console.log(jim);
-// --> not removing & adding cities below with .splice
-// const newJim = jim.splice(2, 1, 'Green Bay', 'Greeley', 'Fort Collins');
-// console.log(newJim);
+
 
 // Bonus: Whoops! Jim is actually only allowed to be in one of two cities. Whatever the first of the 
 // 3 cities for Jim is now, remove it from the array using .splice()
+// jim.splice(2, 1);
+// console.log(jim);
 
 
 // Yell at the Ninja Turtles
