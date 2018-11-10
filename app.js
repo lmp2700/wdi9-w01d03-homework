@@ -50,8 +50,8 @@
 // Daniel just had his birthday; change Daniel's array to reflect him being a year older. 
 // Don't just hard code 187--pretend that you don't know that his age is 186, and write your 
 // code to just make him a year older than whatever age he was.
-   const daniel = ["Daniel", 186, "Dallas"];
-   console.log(daniel[1] + 1)
+  //  const daniel = ["Daniel", 186, "Dallas"];
+  //  console.log(daniel[1] + 1)
 
 
 // Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
@@ -86,16 +86,14 @@
 
 // Yell at the Ninja Turtles
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-
 // Use a for loop to call .toUpperCase() on each of them and print out the result.
-
 // Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, 
 // make the letters alternate back and forth between uppercase and lowercase.
 
-// const turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
-// for(let i = 0; i < turtles.length; i++) {
-//     console.log(turtles[i].toUpperCase());
-// }
+const turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for(let i = 0; i < turtles.length; i++) {
+    console.log(turtles[i].toUpperCase());
+}
 
 
 // const kristynsCloset = [
